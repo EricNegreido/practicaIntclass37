@@ -1,0 +1,12 @@
+{{#each products}}
+
+    <p> {{this.title}}</p>
+    <p> {{this.description}}</p>
+    <p> {{this.price}}</p>
+    </br>
+{{/each}}
+
+
+<p> <a href="/products"> Ver mas productos </a></p>
+<button id="buyButton" data-amount="{{amount}}" data-purchaser="{{purchaser}}">Buy</button>
+<script src="/js/ticket.js"></script>

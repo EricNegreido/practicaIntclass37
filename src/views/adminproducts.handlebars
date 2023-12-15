@@ -1,0 +1,60 @@
+
+    <h1> Hello, Welcome {{ user.name}} </h1>
+    <p>{{ user.rol}}</p>
+
+    <h2>Products list</h2>  <button id="addProductButton">Add Producto</button>
+    <div style="display: none" id="AddProduct">
+        <label>Title</label>
+        <input id="addTitle" name="title">
+        <label>Description</label>
+        <input id="addDescription" name="description">
+        <label>Price</label>
+        <input id="addPrice" name="price" type="number">
+        <label>Stock</label>
+        <input id="addStock" name="stock" type="number">
+        <button id="submitAddProduct">Submit</button>
+    </div>
+    
+    <div style="border: 1px solid rgb(153, 119, 119)" class="product-list">
+        <div style= "display: flex"  class="product-card">
+        {{#each product}}
+        <div style="border: 1px solid rgb(119, 119, 119)"> 
+
+            <h2>{{this.title}}</h2>
+            <p>{{this.description}}</p>
+            <p>{{this.price}}</p>
+            <p>{{this.stock}}</p>
+            <button id="deleteButton" deleteId={{this._id}}>Delete Product</button>
+            <button id="editButton" editId={{this._id}}>Edit Product</button>
+             <div style="display: none" editId="{{this._id}}" class="editProduct">
+                <label>Title</label>
+                <input id="editTitle" name="title" value="{{this.title}}">
+                <label>Description</label>
+                <input id="editDescription" name="description" value="{{this.description}}">
+                <label>Price</label>
+                <input id="editPrice" name="price" type="number" value="{{this.price}}">
+                <label>Stock</label>
+                <input id="editStock" name="stock" type="number" value="{{this.stock}}">
+                <button id="submitEditProduct">Submit</button>
+            </div>
+        </div>
+
+        {{/each}}
+
+        </div>
+    </div>
+    
+    <div style="border: 1px solid rgb(153, 119, 119)" class="pagination">
+        </br>
+        <a href="/api/sessions/logout"><button> Logout </button></a>
+        </br>
+        </br>
+
+        {{#if hasPrevPage}}
+            <a href="?page={{prevPage}}">Previous</a>
+        {{/if}}
+        {{#if hasNextPage}}
+            <a href="?page={{nextPage}}">Next</a>
+        {{/if}}
+    </div>
+<script src="/js/products.js"></script>

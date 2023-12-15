@@ -1,0 +1,34 @@
+{"level":"error","message":"GET en /api/loggerTest - 2023-12-03T16:13:23.677Z"}
+{"level":"fatal","message":"prueba fatal"}
+{"level":"error","message":"prueba error"}
+{"level":"error","message":"GET en /api/loggerTest - 2023-12-03T16:17:21.651Z"}
+{"level":"fatal","message":"prueba fatal"}
+{"level":"error","message":"prueba error"}
+{"level":"error","message":"GET en /api/loggerTest - 2023-12-03T16:18:00.804Z"}
+{"level":"fatal","message":"prueba fatal"}
+{"level":"error","message":"prueba error"}
+{"level":"error","message":"GET en /api/loggerTest - 2023-12-03T16:18:26.455Z"}
+{"level":"fatal","message":"prueba fatal"}
+{"level":"error","message":"prueba error"}
+{"level":"error","message":"GET en /api/loggerTest - 2023-12-03T16:18:28.844Z"}
+{"level":"fatal","message":"prueba fatal"}
+{"level":"error","message":"prueba error"}
+{"level":"error","message":"GET en /api/loggerTest - 2023-12-03T16:18:58.633Z"}
+{"level":"fatal","message":"prueba fatal"}
+{"level":"error","message":"prueba error"}
+{"level":"error","message":"GET en /api/products/123 - 2023-12-03T16:19:16.148Z"}
+{"level":"error","message":"GET en /api/products/123 - 2023-12-03T16:20:27.456Z"}
+{"level":"error","message":"Error al obtener el carrito"}
+{"level":"error","message":"error getting carts"}
+{"level":"error","message":"error getting carts"}
+{"level":"error","message":"error getting carts"}
+{"level":"fatal","message":"Ruta no encontrada: GET /favicon.ico"}
+{"level":"fatal","message":"Ruta no encontrada: GET /loginn"}
+{"level":"fatal","message":"Ruta no encontrada: GET /carts/"}
+{"level":"fatal","message":"Route not found: GET /carts"}
+{"level":"fatal","message":"Route not found: GET /favicon.ico"}
+{"level":"fatal","message":"Route not found: GET /register"}
+{"level":"fatal","message":"Route not found: POST /api/sessions/register"}
+{"level":"fatal","message":"Route not found: GET /favicon.ico"}
+{"level":"fatal","message":"Route not found: POST /register"}
+{"level":"fatal","message":"Route not found: POST /api/register"}

@@ -1,0 +1,12 @@
+const Errors = {
+    ROUNTING_ERROR: 1,
+    INVALID_TYPE_ERROR: 2,
+    USER_NOT_FOUND: 3,
+    PRODUCT_NOT_FOUND:4,
+    CART_NOT_FOUND:5,
+    CREATE_PRODUCT_ERROR:6,
+    UPDATE_PRODUCT_ERROR:7
+    
+}
+
+export default Errors;
